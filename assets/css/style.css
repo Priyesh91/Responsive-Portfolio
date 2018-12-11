@@ -218,7 +218,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-
+/* 640px */
 @media only screen and (max-width: 640px) {
 body {
   line-height: 130%;
@@ -262,26 +262,37 @@ nav {
 .ah3 {
   font-size: 140%;
 }
-
-
 }
 
-
-
-
-
-
+/* 768px */
+@media screen and (max-width:768px) {
+#logo {
+  margin-left:5%;
+}
+#right-nav {
+  margin-right: 5%;
+}
+#main-container {
+  width: 90%;
+  margin-top: 0%;
+    }
+.ah1 {
+  font-size: 180%;
+}
+.auth-image {
+  width: 55%;
+}
+  }
 
 /* 980px fullscreen */
- /* @media screen and (max-width:980px) {
+
+ @media screen and (max-width:980px) {
     
-} */ */
+} 
 
-/* 768px */
-/* @media screen and (max-width:768px) {
- 
-} */
 
-/* 640px */
+
+
+/* did not change contact page to float left and change size of main container since Alex had said to ignore that part in class */
 
 
