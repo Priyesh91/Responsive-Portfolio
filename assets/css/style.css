@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -216,3 +217,24 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+
+/* 980px fullscreen */
+/* @media screen and (max-width:980px) {
+  
+  
+} */
+
+/* 768px */
+/* @media screen and (max-width:768px) {
+ 
+} */
+
+/* 640px */
+/* @media screen and (max-width: 640px) {
+ #main-container{
+   width: 640px;
+ }
+} */
+
