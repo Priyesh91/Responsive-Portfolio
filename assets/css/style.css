@@ -218,51 +218,16 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* 640px */
-@media only screen and (max-width: 640px) {
-body {
-  line-height: 130%;
-  font-size: 100%;
-}
-nav {
-  float: none;
-  text-align: center;
-  font-size:80%;
-  margin-top: 0%;
-  padding-top: 20%;
-  padding-bottom: 2%;
-  }
-#logo {
-  width: 100%;
-  font-size: 170%;
-  padding-top: 0%;
-  }
-#mainsection {
-    padding: 5%;
-    width: 85%;
-      }
-.main-section {
-  padding: 5%;
-}
+/* did not change contact page to float left and change size of main container since Alex had said to ignore that part in class and everything matched the 980px version therefore did not see fit to add modifications to it. */
+
+/* 980px fullscreen */
+
+/* @media screen and (max-width:980px) {
 #main-container {
-  width: 90%;
-  margin-top: 0%;
-    }
-.ah1 {
-  font-size: 140%;
-  padding: 0;
-}
-#main-container {
-  font-size: 80%;
-  }
-.auth-image {
-  width:100%;
-  float: none;
-}
-.ah3 {
-  font-size: 140%;
-}
-}
+  width: 70%;
+}    
+}  */
+
 
 /* 768px */
 @media screen and (max-width:768px) {
@@ -283,16 +248,49 @@ nav {
   width: 55%;
 }
   }
-
-/* 980px fullscreen */
-
- @media screen and (max-width:980px) {
-    
-} 
-
-
-
-
-/* did not change contact page to float left and change size of main container since Alex had said to ignore that part in class */
-
-
+/* 640px */
+@media only screen and (max-width: 640px) {
+  body {
+    line-height: 130%;
+    font-size: 100%;
+  }
+  nav {
+    float: none;
+    text-align: center;
+    font-size:80%;
+    margin-top: 0%;
+    padding-top: 20%;
+    padding-bottom: 2%;
+    }
+  #logo {
+    width: 100%;
+    font-size: 170%;
+    padding-top: 0%;
+    margin-left: 0%;
+    }
+  #mainsection {
+      padding: 5%;
+      width: 85%;
+        }
+  .main-section {
+    padding: 5%;
+  }
+  #main-container {
+    width: 90%;
+    margin-top: 0%;
+      }
+  .ah1 {
+    font-size: 140%;
+    padding: 0;
+  }
+  #main-container {
+    font-size: 80%;
+    }
+  .auth-image {
+    width:100%;
+    float: none;
+  }
+  .ah3 {
+    font-size: 140%;
+  }
+  }
